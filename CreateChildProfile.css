@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #002f6c;
+    color: white;
+    padding: 20px;
+    align-items: center;
+  
+}
+
+.admin-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+
+}
+
+.admin-name {
+  margin-left: 10px;
+  margin-bottom: 5px;
+
+}
+
+.admin-name h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.admin-name p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #cccccc;
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-bottom: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+.main-content {
+  
+    width: 10000px;
+  
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+.form {
+  max-width: 800px;
+  margin: 5 auto;
+  background-color: #fff;
+  padding: 70px;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-height: fit-content;
+}
+
+h2 {
+  margin-top: 10px;
+  font-weight: 300px;
+}
+
+.form-group {
+  margin-bottom: 40px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-actions {
+  text-align: right;
+}
+
+.submit-button,
+.cancel-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ccc;
+  color: #333;
+
+}
+
+.submit-button {
+  background-color: #002f6c;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #002f6c;
+    color: white;
+  
+}
+
+.cancel-button {
+  background-color: #f3e5e4;
+  color: #0a0202;
+  transition: background-color 0.3s ease;
+}
+
+

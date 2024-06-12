@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create New Profile</title>
+    <link rel="stylesheet" href="CreateChildProfile.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="admin-info">
+          <div class="admin-icon">
+            <img src="admin-icon.png" alt="Admin Icon" />
+          </div>
+          <div class="admin-name">
+            <h2>Administrator Name</h2>
+            <p>admin@domain.com</p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Admin Profile</a></li>
+            <li><a href="#" class="active">Registration</a></li>
+            <li><a href="#">Vaccination</a></li>
+            <li><a href="#">Clinic Dates</a></li>
+            <li><a href="#">Weight Graphs</a></li>
+            <li><a href="#">Height Graphs</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="main-content">
+        <form class="form">
+          <h2>Create New Profile</h2>
+          <div class="form-group">
+            <label for="child-first-name">Name of the child</label>
+            <input type="text" id="child-first-name" placeholder="First" />
+            <input type="text" id="child-last-name" placeholder="Last" />
+          </div>
+          <div class="form-group">
+            <label for="registration-no">Registration No</label>
+            <input
+              type="text"
+              id="registration-no"
+              placeholder="Enter your Registration Number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="identity-no">Identity No</label>
+            <input
+              type="text"
+              id="identity-no"
+              placeholder="Enter your identity card number"
+            />
+          </div>
+          <label for="registration-no">Date of Birth</label>
+          <div class="form-group">
+            <div class="nice-form-group">
+              <label for="dob-year">Year</label>
+              <input
+                type="number"
+                id="dob-year"
+                min="1900"
+                max="2100"
+                placeholder="YYYY"
+              />
+            </div>
+            <div class="nice-form-group">
+              <label for="dob-month">Month</label>
+              <input type="month" id="dob-month" />
+            </div>
+            <div class="nice-form-group">
+              <label for="dob-date">Date</label>
+              <input type="date" id="dob-date" />
+            </div>
+            <div class="nice-form-group">
+              <label for="dob-time">Time</label>
+              <input type="time" id="dob-time" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="registered-date">Registered Date</label>
+            <div class="nice-form-group">
+                <label for="registered-month">Month</label>
+                <input type="text" id="registered-month" placeholder="Month">
+            </div>
+            <div class="nice-form-group">
+                <label for="registered-date">Date</label>
+                <input type="text" id="registered-date" placeholder="Date">
+            </div>
+            <div class="nice-form-group">
+                <label for="registered-year">Year</label>
+                <input type="text" id="registered-year" placeholder="Year">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="mother-first-name">Name of mother</label>
+            <input type="text" id="mother-first-name" placeholder="First" />
+            <input type="text" id="mother-last-name" placeholder="Last" />
+          </div>
+          <div class="form-group">
+            <label for="mothers-age">Mother's Age</label>
+            <input type="text" id="mothers-age" placeholder="XX" />
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" id="address" placeholder="Address" />
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="submit-button">Submit</button>
+            <button type="button" class="cancel-button">Cancel</button>
+          </div>
+        </form>
+      </main>
+    </div>
+    <script src="CreateChildProfile.js"></script>
+  </body>
+</html>
