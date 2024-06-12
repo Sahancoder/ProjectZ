@@ -49,6 +49,11 @@ We welcome contributions! If you'd like to contribute to our project, follow the
 4. Push to the branch: `git push origin feature/your-feature-name`.
 5. Create a pull request.
 
+   
+##ER Diagram
+
+![Screenshot 2024-06-12 060236](https://github.com/Sahancoder/ProjectZ/assets/142738142/4474b99e-9608-4d4b-935b-fd6c07eb3bc6)
+
 ## License
 
 This project is licensed under the MIT License.
